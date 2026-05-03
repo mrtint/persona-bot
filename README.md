@@ -88,6 +88,7 @@ git push -u origin main
 
 ## 더 읽을 곳
 
+- [작업 계획 참고 (`docs/planning-reference.md`)](docs/planning-reference.md) — 벤치비·맥미니 역할, 병목, nanobot 다중 인스턴스, 저장소 범위(모델 파일 수정 없음)
 - [문서 목차 (`docs/README.md`)](docs/README.md)
 - [MVP 설계 스펙](docs/superpowers/specs/2026-05-02-persona-bot-mvp-design.md)
 - [실험 보고서](docs/superpowers/experiments/2026-05-02-persona-bot-experiment-report.md)
