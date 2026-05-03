@@ -1,0 +1,14 @@
+{
+  "agents": {
+    "defaults": {
+      "provider": "ollama",
+      "model": "persona_test_v1",
+      "max_turns": 10
+    }
+  },
+  "providers": {
+    "ollama": {
+      "apiBase": "http://127.0.0.1:11434/v1"
+    }
+  }
+}
