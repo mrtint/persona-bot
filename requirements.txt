@@ -1,4 +1,2 @@
 nanobot-ai
 datasets
-ollama
-requests
