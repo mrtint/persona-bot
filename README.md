@@ -77,22 +77,25 @@ nanobot 쪽 최소 예시(`configs/*.json`)는 대략 다음 형태입니다.
 - 스크립트는 **`OLLAMA_HOST`** 환경 변수를 읽습니다. 비밀 URL은 저장소에 넣지 말고 로컬 환경이나 CI 시크릿으로만 주입하세요.
 - `.venv/`는 `.gitignore`에 포함되어 있으며 Git에 올리지 않습니다.
 
-## GitHub에 올리기
+## GitHub
 
-1. 아래로 첫 커밋을 만든 뒤(이미 있다면 생략) GitHub에서 빈 저장소를 만듭니다.
-2. 원격을 추가하고 푸시합니다.
+정식 저장소: **[https://github.com/A810Lab/persona-bot](https://github.com/A810Lab/persona-bot)** (`origin`).
+
+개인 계정 쪽 미러를 두려면 원격을 추가한 뒤 푸시하면 됩니다.
 
 ```bash
-git add -A && git commit -m "Initial commit: persona-bot scripts and docs"
-git remote add origin https://github.com/<사용자명>/persona-bot.git
+git remote add mrtint https://github.com/mrtint/persona-bot.git
+git push mrtint main
+```
+
+새 저장소를 처음 연결할 때는 예를 들어 다음과 같습니다.
+
+```bash
+git remote add origin https://github.com/A810Lab/persona-bot.git
 git push -u origin main
 ```
 
-[GitHub CLI](https://cli.github.com/)가 있으면 한 번에 만들 수 있습니다.
-
-```bash
-gh repo create persona-bot --public --source=. --remote=origin --push
-```
+[GitHub CLI](https://cli.github.com/)로 조직 저장소를 만들 때는 예를 들어 `gh repo create A810Lab/persona-bot --public` 후 위와 같이 `git remote add` / `git push`를 사용합니다.
 
 ## 더 읽을 곳
 
