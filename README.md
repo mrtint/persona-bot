@@ -79,7 +79,7 @@ nanobot 쪽 최소 예시(`configs/*.json`)는 대략 다음 형태입니다.
 
 ## GitHub
 
-정식 저장소: **[https://github.com/A810Lab/persona-bot](https://github.com/A810Lab/persona-bot)** (`origin`).
+정식 저장소: **[https://github.com/A810Lab/persona-bot](https://github.com/A810Lab/persona-bot)** (`origin`, **private** — A810Lab 조직 멤버만 클론/접근 가능).
 
 개인 계정 쪽 미러를 두려면 원격을 추가한 뒤 푸시하면 됩니다.
 
